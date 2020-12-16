@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="src/styles/main.css">
+    <link rel="stylesheet" href="src/styles/layouts.css">
+    <link rel="stylesheet" href="src/styles/content.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
     <title>Vinicius Bazanella</title>
@@ -12,9 +14,21 @@
 
 <body>
     <div class="container">
-        <div class="welcome-text">
-            <div class="hi">Hi!</div>
-            <div class="title">I'm <span class="blue">Vinicius</span></div>
+        <div class="menu">Menu</div>
+        <div class="welcome-container justify-space-between">
+            <div class="row justify-space-around">
+                <div class="left">
+                    <div class="hello-text">Hi!</div>
+                    <div class="title">I'm<span class="blue"> Vinicius</span></div>
+                    <p>And I love web development.</p>
+                </div>
+                <div class="right">
+                    <img src="src/assets/img/bitmoji-hi.png" alt="avatar with hi gesture">
+                </div>
+            </div>
+            <div class="row justify-center">
+                <img src="./src/assets/icon/continue.svg" alt="icone continuar">
+            </div>
         </div>
     </div>
 </body>

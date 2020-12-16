@@ -1,0 +1,11 @@
+.menu {
+    padding: 50px;
+    position: fixed;
+}
+
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 15% 20px 15%;
+    height: calc(100vh - 70px);
+}

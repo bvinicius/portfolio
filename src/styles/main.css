@@ -3,6 +3,11 @@
     color: white;
 }
 
+p {
+    font-size: 24pt;
+    margin: 0;
+}
+
 body {
     margin: 0;
 }
@@ -11,13 +16,12 @@ body {
     color: #67DAFF;
 }
 
-.hi {
-    font-size: 72pt;
-}
-
-
 .title {
     font-size: 64pt;
+}
+
+.hello-text {
+    font-size: 72pt;
 }
 
 .container {
