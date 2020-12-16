@@ -1,11 +1,21 @@
 .menu {
-    padding: 50px;
+    padding: 30px;
     position: fixed;
+    width: 100%;
+    z-index: 200;
+    background-color: #353535;
+}
+
+.menu-item {
+    font-size: 18pt;
+    font-weight: bold;
+    color: #67DAFF;
+    margin-right: 90px;
 }
 
 .welcome-container {
     display: flex;
     flex-direction: column;
-    padding: 50px 15% 20px 15%;
-    height: calc(100vh - 70px);
+    padding: 100px 15% 20px 15%;
+    height: calc(100vh - 120px);
 }

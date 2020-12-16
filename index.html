@@ -8,18 +8,24 @@
     <link rel="stylesheet" href="src/styles/layouts.css">
     <link rel="stylesheet" href="src/styles/content.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script type="module" src="index.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
     <title>Vinicius Bazanella</title>
 </head>
 
 <body>
     <div class="container">
-        <div class="menu">Menu</div>
+        <div class="menu justify-center row">
+            <div class="menu-item">Home</div>
+            <div class="menu-item">Home</div>
+            <div class="menu-item">Home</div>
+        </div>
+
         <div class="welcome-container justify-space-between">
             <div class="row justify-space-around">
-                <div class="left">
+                <div class="col justify-center">
                     <div class="hello-text">Hi!</div>
-                    <div class="title">I'm<span class="blue"> Vinicius</span></div>
+                    <div id="iam" class="title">I'm <span id="name" class="blue">Vinicius</span></div>
                     <p>And I love web development.</p>
                 </div>
                 <div class="right">
