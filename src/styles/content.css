@@ -7,7 +7,7 @@
 }
 
 .menu-item {
-    font-size: 18pt;
+    font-size: 16pt;
     font-weight: bold;
     color: #67DAFF;
     margin-right: 90px;
@@ -17,5 +17,66 @@
     display: flex;
     flex-direction: column;
     padding: 100px 15% 20px 15%;
-    height: calc(100vh - 120px);
+}
+
+.aboutme {
+    margin: 0 5%;
+}
+
+.card {
+    background-color: #232728;
+    border-radius: 5px;
+    padding: 24px;
+}
+
+.card-title {
+    font-size: 32pt;
+    color: #67DAFF;
+    margin-bottom: 16px;
+}
+
+.card-content {
+    font-size: 18pt;
+    margin-bottom: 16px;
+}
+
+.card-content > p {
+    font-size: 18pt;
+    margin-bottom: 16px;
+    text-align: justify;
+}
+
+.card-actions {
+    font-size: 12pt;
+    color: #67DAFF;
+}
+
+.skills {
+    margin: 0 10%;
+}
+
+.skill {
+    margin-bottom: 48px;
+}
+
+.skill-text {
+    color: #67DAFF;
+    font-size: 24px;
+}
+
+.skill-level-bg {
+    height: 22px;
+    width: 220px;
+    margin: 0 22px;
+    background-color: white;
+    border-radius: 22px;
+}
+
+.skill-level {
+    height: 18px;
+    width: 200px;
+    margin: 0 2px;
+    background-color: #67DAFF;
+    border-radius: 18px;
+    position: absolute;
 }
